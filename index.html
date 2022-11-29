@@ -7,28 +7,36 @@
     <link rel="stylesheet" href="CSS/style.css">
 
     <title>Architecture designer</title>
+    <link rel="shortcut icon" type="image/jpeg" href="https://i.imgur.com/fog2PVl.jpeg"/>
+  
 </head>
 <body>
-
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a class="active" href="#about">About us</a>
+    <a class="active" href="#history">History</a>
+  </div>
+  
   <section class="section-middle">
+    <img rel="icon" class="img-media" src="https://i.imgur.com/fog2PVl.jpeg" alt="house"/>
     <h1>Architecture designer</h1>
     <p><strong>A design company helping you with your dream project!</strong></p>
     <p><img src="https://i.ibb.co/WvWwL4W/building.jpg" alt="Logo" style="width:75%;"></p>
   </section>
     
-    <section class="section-middle">
+    <section class="section-middle" id="about">
         <h3>Affordable</h3>
         <p>Our architecture studio have always aimed to be an affordable partner when you are planning to build, delivering a fixed price rate for every customer.</p>
         <p>This way both you as a customer and us as a business, work together</p>
         </section>
 
         <section class="section-middle">
-            <h3>Efficent</h3>
+            <h3>Efficient</h3>
             <p>Having timelines is a must in every architectual project, aiming towards a time goal is important on all projects, delivering time efficent work.</p>
             </section>
 
             <section class="section-middle">
-                <h3>We are family owned</h3>
+                <h3>Family owned</h3>
                 <p>The business is family owned, which means our prices are lower than competitors due to low costs of employees.</p>
                 </section>
 
@@ -39,14 +47,36 @@
 
                   </div>
 
-        <section class="section-middle">
+        <section class="section-middle" id="history">
         <h2>The History</h2>
         <p>When it comes to history, our architectual design company sure have got some.</p>
         <p>Bein in business for over 20 years, we have completed some huge projects for our clients.</p>
         <p>It all shows in the growth of the company who are now a total of <strong>20</strong> employees!</p>
       </section>
 
+      <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
+        <fieldset>
+          <legend>Get in touch with us!</legend>
+          <label for="lname">Name:</label>
+          <input type="text" name="lname" id="lname" required>
+          <br>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" required>
+          <br>
+          <label for="phone">Phone:</label>
+          <input type="number" name="phone" id="phone" required>
+          <textarea cols="36" rows="8" name="feedback" placeholder="Your Message"></textarea>
+          <input id="submit" type="submit" value="Send Request">
+      </fieldset>
+      <br>
+      </form>
+      <br>
+
+
 <footer>
+    <a href="https://www.facebook.com" target="_blank" rel="noopener" style="color:#ffffff;">Facebook</a>
+		<a href="https://www.instagram.com" target="_blank" rel="noopener" style="color:#ffffff;">Instagram</a>
+		<a href="https://www.twitter.com" target="_blank" rel="noopener" style="color:#ffffff;">Twitter</a>
     <p>Created by Robert Bengtsson - Copyright @2022</p>
   </footer>
 </body>
