@@ -1,108 +1,119 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **Architecture designer**
+## **Site Overview**
+An architecture design page built to display different project that have been completed.
+Following up there is a brief description of the history of the company.
+There is also a contact form where you can contact the company straight from the form.
+In both the header there are navigation bars that takes you easily through the site.
+In the footer there is information to different social medias.
 
-Welcome Gomsur,
+​
+![Heading](Images/Webpage%20front.png)
+![Middle](Images/Webpage%20mid.png)
+![Footer](Images/Webpage%20foot.png)
+​
+## Table of contents:
+1. [**Site Overview**](#site-overview)
+1. [**Planning stage**](#planning-stage)
+    * [***Target Audiences***](#target-audiences)
+    * [***User Stories***](#user-stories)
+    * [***Site Aims***](#site-aims)
+    * [***Typography**](#typography)
+1. [**Current Features common on the page**](#current-features-common-to-all-pages)
+    * [***Website features***](#features)
+1. [**Future-Enhancements**](#future-enhancements)
+1. [**Testing Phase**](#bugs)
+1. [**Deployment**](#deployment)
+1. [**Tech**](#tech)
+1. [**Credits**](#credits)
+    * [**Honorable mentions**](#honorable-mentions)
+    * [**Media**](#media)
+​
+## **Planning stage**
+### **Target Audiences:**
+​
+* People interested in architecture
+* People interested in construction
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+​
+### **User Stories:**
+​
+* As a user, I want to see the subject matter of the page.
+* As a user, I want to navigate the page to find what I require quickly and easily.
+* As a user, I want to learn more about what the business offers
+* As a user, I want to reach out and contact the business
+​
+## **Typography**
+​
+* Throughout the page, the fonts used:
+  * Arial, sans-serif
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+​
+## **Current Features Common to all pages**
 
-## Gitpod Reminders
+#### *Navigation Bar:*
+​
+* The user is given links to each section of the page which smoothly navigates them through the site
+* Each option is presented in a way that is always obvious and reable
+* on smaller screens a smaller menu is provided to ensure mobile users have an optimal experience
+​
+#### *features
+​
+* This is where you will place all of your features think about each section of the page include a screenshot and a few bullet points on how it's presented and why
+​
+## **Future-Enhancements**
+​
+* Would add more pages
+​
+* Add icons to the social media urls
+​
+* I have tested the responsiveness through the inspect theme in the browser, alongside with my mentor to see that everything was responsive on different devices.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+​
+* Functionality wise I have tested different image sizes to best adapt it to tablets and phone users, clicked each link to see the response, also getting a smooth layout throughout the page to make it appealing for the reader.
 
-`python3 -m http.server`
+​
+*  Validators - 
+W3C - ![HTML](Images/Validator%20.png)
+Jigsaw - ![CSS](Images/Validator%20css.png)
+​
+​
+## **Bugs**
+​
+* Issue - Images not adapting to phone users
+* Cause - Had a max-height instead of a media quarry which caused the image size to not adapt.
+* Resolution - Added a media quarry instead of the max-height
 
-A blue button should appear to click: _Make Public_,
+​
+***
+## **Deployment**
+I deployed the page on GitHub pages via the following procedure: -
+​
+1. Went on Github, to my settings
+2. On the left menu, I selected the pages tab
+3. Under the source section, I selected a main branch and clicked save.
+4. The site reloaded and I got my website link and a successful deployment to Github.
 
-Another blue button should appear to click: _Open Browser_.
+​
+You  can find the live site via the following URL - [webpage](https://gomsur.github.io/Architecture/)
+***
+​
+## **Tech**
+- HTML
+- CSS
+​
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+## **Credits**
+### **Honorable mentions**
+​
+I took big help of Fredrik Hansen, a fellow student in my class.
+We have been talking throughout the days and got good inputs, along with solutions when I got stuck.
+My mentor have also given me tips and tricks along the way.
+​
+  
+### **Media:**
+​
+![House](https://i.ibb.co/WvWwL4W/building.jpg)
+![Staircase](https://i.ibb.co/Rzb2zQ9/staircase-g9834dfa07-1280.jpg)
+![Building](https://i.ibb.co/qycCjfc/architecture-g24968616b-1280.jpg)
+![House](https://i.ibb.co/WvWwL4W/building.jpg)
+![Logotype](https://i.imgur.com/fog2PVl.jpeg)
